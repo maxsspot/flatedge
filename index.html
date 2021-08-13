@@ -166,7 +166,8 @@ button, a {
         </style>
         <script>
           function search () {
-    let box = document.getElementById ("search").value;
+    let box = document.getElementById ("search");
+		  document.title = box + " - Flatedge Topic Search":
     document.getElementById ("searches").style.display = "block";
     document.getElementById ("home").style.display = "none";
 
